@@ -36,7 +36,10 @@ namespace TDDCursusLibrary.Test
         [Test]
         public void EenNummerMet13CijfersMetCorrectControleGetal2()
         {
-            new Isbn(9789027439642L);
+            //Arrange
+            long testNumber = 9789027439642L;
+            //Act + Assert
+            Assert.AreEqual (testNumber.ToString(), new Isbn(testNumber).ToString());
         }
         [Test]
         public void EenNummerMet13CijfersMetVerkeerdControleGetal0()
@@ -46,7 +49,10 @@ namespace TDDCursusLibrary.Test
         [Test]
         public void EenNummerMet13CijfersMetCorrectControleGetal0()
         {
-            new Isbn(9789227439640L);
+            //Arrange
+            long testNumber = 9789227439640L;
+            //Act + Assert
+            Assert.AreEqual(testNumber.ToString(), new Isbn(testNumber).ToString());
         }
     }
 }

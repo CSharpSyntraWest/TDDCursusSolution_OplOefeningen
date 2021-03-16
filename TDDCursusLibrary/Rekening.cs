@@ -7,7 +7,7 @@ namespace TDDCursusLibrary
 
     public class Rekening
     {
-        private decimal saldo;
+        private decimal saldo=0m;
         public void Storten(decimal bedrag)
         {
             //throw new NotImplementedException();

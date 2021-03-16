@@ -31,5 +31,4 @@ namespace TDDCursusLibraryMSTest
             Assert.AreEqual(200, veiling.HoogsteBod);
         }
     }
-
 }

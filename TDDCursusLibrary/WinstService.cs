@@ -17,7 +17,7 @@ namespace TDDCursusLibrary
         {
             get
             {
-                return opbrengstDAO.TotaleOpbrengst() - kostDAO.TotaleKost();
+               return opbrengstDAO.TotaleOpbrengst() - kostDAO.TotaleKost();
             }
         }
 
